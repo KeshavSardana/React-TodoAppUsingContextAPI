@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.animate {
+  animation: animate 1s 1;
+  width: 75%;
+  text-align: "center";
+  margin-left: 8vw;
+}
+
+@keyframes animate {
+  from {
+    transform: rotate(20deg) translateX(-20%);
+  }
+  to {
+    transform: rotate(360deg) translateX(0%);
+  }
+}
